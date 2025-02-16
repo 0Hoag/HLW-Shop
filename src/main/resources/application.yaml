@@ -1,0 +1,45 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /identity
+
+spring:
+  datasource:
+    jdbc-url: YOUR_JDBC
+    username: USERNAME
+    password: PASSWORD
+    driver-class-name: "org.postgresql.Driver"
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  data:
+    mongodb:
+      product:
+        uri: mongodb://localhost:27017/product_db
+      review:
+        uri: mongodb://localhost:27018/review_db
+#      inventory:
+#        uri: mongodb://localhost:27017/inventory_db
+#      logs:
+#        uri: mongodb://localhost:27017/logs_db
+#  main:
+#    allow-bean-definition-overriding: true
+
+jwt:
+  signerKey: "YOUR_SIGNER_KEY"
+  valid-duration: 6000 # in second
+  refreshtable-duration: 1200 # in seconds
+
+vnpay:
+  payment-url: "PAYMENT_URL"
+  tmn-code: "TMN_CODE"
+  hash-secret: "HASH_SECRET"
+
+cloudinary:
+  cloud-name: "CLOUD_NAME"
+  api-key: "API_KEY"
+  api-secret: "API_SECRET"
