@@ -17,8 +17,7 @@ E-Commerce Platform is a full-stack application that provides a robust and scala
 
 ## 🛠️ Technologies  
 - **Backend**: Spring Boot  
-- **Frontend**: React  
-- **Database**: MySQL, MongoDB  
+- **Database**: PostgreSQL, MongoDB  
 - **Authentication**: JWT (JSON Web Tokens), OAuth 2.0  
 - **Real-time Features**: WebSocket  
 - **Messaging & Event Streaming**: Apache Kafka  
@@ -28,7 +27,7 @@ E-Commerce Platform is a full-stack application that provides a robust and scala
 ## 📦 Installation  
 - **Clone the repository**:
 ```bash
-  git clone https://github.com/your-repo/ECommercePlatform.git
+  git clone https://github.com/0Hoag/HLW-Shop.git
   cd ecommerce-platform
 ```
 - **Backend Setup**:
@@ -55,7 +54,3 @@ E-Commerce Platform is a full-stack application that provides a robust and scala
 
 ### Admin Dashboard:
 <img src="https://res.cloudinary.com/ddclol9ih/image/upload/v1737434598/admin_dashboard.png"/>
-
-## 📬 Contact  
-For inquiries or contributions, please contact us at [your-email@example.com](mailto:your-email@example.com).
-
