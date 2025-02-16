@@ -36,21 +36,3 @@ E-Commerce Platform is a full-stack application that provides a robust and scala
   ./mvnw clean install
   ./mvnw spring-boot:run
 ```
-## 📸 Screenshots  
-### Home Page:
-<img src="https://res.cloudinary.com/ddclol9ih/image/upload/v1737434601/ecommerce_home.png"/>
-
-### Product Details:
-<img src="https://res.cloudinary.com/ddclol9ih/image/upload/v1737434603/product_details.png"/>
-
-### Shopping Cart:
-<img src="https://res.cloudinary.com/ddclol9ih/image/upload/v1737434599/shopping_cart.png"/>
-
-### Checkout:
-<img src="https://res.cloudinary.com/ddclol9ih/image/upload/v1737434598/checkout.png"/>
-
-### Order Summary:
-<img src="https://res.cloudinary.com/ddclol9ih/image/upload/v1737434600/order_summary.png"/>
-
-### Admin Dashboard:
-<img src="https://res.cloudinary.com/ddclol9ih/image/upload/v1737434598/admin_dashboard.png"/>
